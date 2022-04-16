@@ -1,4 +1,4 @@
-const Card = ( { character } ) => {
+const Card = ({ character }) => {
   return (
     <div className="card w-25">
       <img src={character.image} className="card-img-top" alt="character" />
@@ -12,7 +12,7 @@ const Card = ( { character } ) => {
         <p className="card-text">{character.location.name}</p>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Card
+export default Card;
